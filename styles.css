@@ -1,0 +1,164 @@
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .header {
+      padding: 0 250px 186px 250px;
+      text-align: center;
+      
+  }
+  p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  /* Navigation and links */
+  .list {
+    list-style: none;
+  }
+  
+  .list-item {
+    display: inline;
+    margin-left: 15px;
+    text-shadow: 1px 2px 3px #828282;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #828282;
+  }
+  
+  .link--active {
+    text-decoration: underline;
+    color: black;
+    opacity: 1;
+  }
+  
+  .link:hover {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #828282;
+  }
+  
+  .navigation {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 25px 250px;
+  }
+
+  /* Photo & h1 */
+  .header-1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: centre;
+    
+  }
+
+
+   /* About me section */
+  .about-me {
+    background-color: #F6F6F6;
+  }
+  
+  .section {
+    text-align: center;
+    padding: 100px 0
+  }
+  
+  .subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 46px;
+  }
+  
+  /* Skills section */
+  .skill__description {
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #828282;
+  }
+
+  .stars-container {
+    margin-top: 60px;
+  }
+  
+  .star {
+    margin-right: 8px;
+  }
+  
+  .skill {
+    display: inline-block;
+    padding: 0 45px
+  }
+  
+  .skills__container {
+    margin-top: 80px
+  } 
+
+  /* Portfolio section */
+  .portfolio {
+      background-color: #F6F6F6;
+  }
+
+  .project {
+      margin-top: 66px;
+      margin-bottom: 120px;
+  }
+
+  .project_description {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 15px;
+  }
+
+  /* Button */
+  .button {
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    width: 180px;
+    height: 42px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 60px;
+  }
+
+  /* Webs pages */
+  .webs {
+      margin-top: 30px;
+      text-align: center;
+  }
+
+  .webs_container {
+    margin-right: 70px;
+  }
+  .web_icon {
+      display: inline;
+      padding-left: 70px;
+  }
+
+  .webs_description {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    margin-top: 45px;
+  }
+
+  
