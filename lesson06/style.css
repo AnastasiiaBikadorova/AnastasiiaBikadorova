@@ -2,38 +2,35 @@
     font-family: 'Poppins', sans-serif;
 }   
 
+body {
+    padding: 20px 130px 85px;
+}
 /* Header+navigation+logo */
 .header {
     padding-top: 20px;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo , .navigation, .buttons {
-    display: inline-block;
+.nav_btn {
+    display: flex;
+    justify-content: space-between;
 }
 
-.logo {
-    margin-left: 120px;
-}
-
-.list {
-    margin-left: 270px;
-}
 
 .list-item {
-    margin-left: 10px;
     font-size: 14px;
     line-height: 28px;
     color: #2F281E;
-    display: inline-block;
+    padding-right: 8px;
 }
 
 /* Section-1 */
 
 .buttons {
-    margin-left: 25px;
     font-size: 16px;
     line-height: 24px;
+    margin-left: 15px;
 }
 
 .button-1 {
@@ -44,23 +41,22 @@
 
 }
 .button-2 {
-    margin-left: 5px;
     background-color: #FF9900;
     color: #FFFFFF;
     border: solid #FF9900;
     border-radius: 4px;
-
 }
 
 .section-1 {
-    margin-top: 30px;
-    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 .section-box {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
-.container-1 {
+.container-2 {
     width: 50%;
 }
 
@@ -101,9 +97,119 @@
     line-height: 24px;
     color: #FF9900;
 }
-.link::before {
-    content: url(/lesson06/img06/Triangle\ Copy\ 6.png);
-    margin-left: 30px;
-    margin-right: 8px;
+
+/* Section-2 */
+
+.section-2 {
+    margin-top: 110px;
 }
 
+.title-2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin-top: 55px;
+}
+
+.icon {
+    margin-right: 45px;
+}
+
+.icon_title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+/* Section-3 */
+
+.section-3 {
+    margin-top: 210px;
+    margin-bottom: 100px;
+}
+
+.sections {
+    margin-bottom: 100px;
+}
+
+.professions {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+    margin-top: 25px;
+}
+
+h3.title-2 {
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.red_t-shirt {
+    padding-left: 100px;
+} 
+
+/* Section-4 */
+
+.text_section-4 {
+    margin-top: 30px;
+}
+
+.blue_t-shirt {
+    padding-right: 100px;
+}
+
+/* Line */
+
+.line {
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    margin-top: 150px;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 105px;
+}
+
+.columns {
+    margin-top: 60px;
+}
+
+.about {
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+
+.column-1 {
+    margin-right: 175px;
+}
+
+.input {
+    list-style: none;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
